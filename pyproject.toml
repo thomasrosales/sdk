@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sdk"
+version = "0.1.0"
+description = ""
+authors = ["Tomás Rosales"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^24.4.2"
+ipython = "8.12"
+isort = "^5.13.2"
+environs = "^11.0.0"
+requests = "^2.31.0"
+asyncio = "^3.4.3"
+aiohttp = "^3.9.5"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
